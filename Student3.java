@@ -1,14 +1,13 @@
 package com.company;
 
-public class Student {
+public class Student3 {
     private String name, StudyNumber,SCHOOL ;
     private String Grade;
     private String Gender;
 
-    public Student() {
+
+    public Student3() {
     }
-
-
 
 
     public void setName(String newName) {

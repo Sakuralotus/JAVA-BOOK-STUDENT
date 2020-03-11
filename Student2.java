@@ -1,11 +1,11 @@
 package com.company;
 
-public class Student {
+public class Student2 {
     private String name, StudyNumber,SCHOOL ;
     private String Grade;
     private String Gender;
 
-    public Student() {
+    public Student2() {
     }
 
 
