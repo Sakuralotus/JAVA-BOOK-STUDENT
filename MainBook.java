@@ -2,11 +2,11 @@
 
 public class MainBook {
     public static void main(String[] args) {
+       
         Book book1= new Book();
-        Book book2 = new Book();
-        Book book3= new Book();
-        Book book4= new Book();
-        Book book5= new Book();
+        Book2 book2 = new Book2();
+        Book3 book3= new Book3();
+       
         book1.setName("King Author");
         book1.setAuthor("Author");
         book1.setISBN("465465165486146846");
@@ -18,6 +18,8 @@ public class MainBook {
         System.out.println(book1.getPrice());
         System.out.println(book1.getpublishday());
         book1.showInfo();
+book2.showInfo();
+book3.showInfo();
     }
 }
 
