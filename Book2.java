@@ -1,11 +1,9 @@
-
-
-public class Book {
+public class Book2 {
     private String name, author, ISBN ;
     private String Price;
     private String publishday;
 
-    public Book() {
+    public Book2() {
     }
 
 
@@ -68,5 +66,4 @@ public class Book {
     public void showInfo(){
         System.out.println("Book Name:"+this.name+","+"Author Name: "+this.author+","+"ISBN Code:"+this.ISBN+","+"Price:"+this.Price+","+"Publish Day:"+this.publishday );
     }
-
 }
